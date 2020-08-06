@@ -26,6 +26,15 @@ int main()
             Tails++;
         }
     }
+    if (Heads > Tails)
+    {
+        printf("You won\n");
+    }
+    else
+    {
+        printf("You lost\n");
+    }
+
     printf("Heads: %d, Tails: %d\n", Heads, Tails);
     return 0;
 }
