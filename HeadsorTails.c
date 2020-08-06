@@ -10,7 +10,11 @@ int main()
 {
     int Heads = 0, Tails = 0;
     int a;
+    char a[10];
 
+    printf("Who are you?\n>");
+    scanf("%s", a);
+    printf("Hello, %s", a);
     printf("tossing coin...\n");
     for (int i = 1; i < 4; i++)
     {
